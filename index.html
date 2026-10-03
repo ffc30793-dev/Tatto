@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site profissional para tatuador — estilo preto, laranja e dourado.">
+  <title>DOM Inked — Tattoo Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ambient ambient-1"></div>
+  <div class="ambient ambient-2"></div>
+
+  <header class="header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="DOM Inked">
+      <span class="brand-script">Dom</span>
+      <small>INKED</small>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="#sobre">Quem somos</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">TATUAGEM • ARTE • IDENTIDADE</span>
+        <h1>Onde a pele vira tela e a <span>arte se torna eterna.</span></h1>
+        <p>
+          Capturo sua essência e transformo em arte com a especialidade de Dom.
+          Cada projeto é pensado para expressar sua identidade, carregando
+          significado e personalidade em cada detalhe.
+        </p>
+        <a class="btn" href="#contato">Agende seu horário <b>→</b></a>
+      </div>
+
+      <div class="hero-visual reveal">
+        <!-- Troque esta imagem por uma imagem gerada por IA do tatuador -->
+        <div class="image-glow"></div>
+        <img src="https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=900&q=85"
+             alt="Tatuador em estúdio" class="hero-image">
+        <div class="hero-orbit"></div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about section" id="sobre">
+      <div class="about-image reveal">
+        <!-- Imagem de referência: pode substituir por uma criação de IA -->
+        <img src="https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=900&q=85"
+             alt="Artista trabalhando em uma tatuagem">
+      </div>
+
+      <div class="about-copy reveal">
+        <span class="eyebrow">CONHEÇA DOM</span>
+        <h2>Vencedor do Ink Miami</h2>
+        <p>
+          Com anos de carreira, Dom se dedica a transformar histórias em
+          tatuagens únicas. Seu trabalho combina técnica, composição e uma
+          leitura cuidadosa de cada ideia.
+        </p>
+        <p>
+          Do primeiro desenho ao resultado final, cada projeto recebe atenção
+          aos detalhes, higiene e acabamento profissional.
+        </p>
+        <a class="btn" href="#contato">Faça um orçamento <b>→</b></a>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio section" id="portfolio">
+      <div class="section-heading reveal">
+        <span class="eyebrow">PORTFÓLIO</span>
+        <h2>Trabalhos que contam histórias.</h2>
+        <p>Uma seleção de trabalhos para você conhecer o estilo do estúdio.</p>
+      </div>
+
+      <div class="portfolio-grid reveal">
+        <img src="https://images.unsplash.com/photo-1590246814883-57c511e55d9f?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 1">
+        <img src="https://images.unsplash.com/photo-1565058379802-bbe93b2f703a?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 2">
+        <img src="https://images.unsplash.com/photo-1542727365-19732a80dcfd?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 3">
+        <img src="https://images.unsplash.com/photo-1598373182212-2f7f4a6b9f5d?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 4">
+        <img src="https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 5">
+        <img src="https://images.unsplash.com/photo-1597862741408-7f2b9b8b7c83?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 6">
+        <img src="https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 7">
+        <img src="https://images.unsplash.com/photo-1562962234-2c2d5f5f0f8e?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 8">
+        <img src="https://images.unsplash.com/photo-1542727365-19732a80dcfd?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 9">
+        <img src="https://images.unsplash.com/photo-1562962234-2c2d5f5f0f8e?auto=format&fit=crop&w=600&q=85" alt="Tatuagem 10">
+      </div>
+
+      <a class="btn btn-center" href="#contato">Quero uma tattoo nova <b>→</b></a>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="services section" id="servicos">
+      <div class="section-heading reveal">
+        <span class="eyebrow">SERVIÇOS</span>
+        <h2>Conheça todas as especialidades.</h2>
+        <p>Do conceito ao acabamento, tudo pensado para seu projeto.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1618552466186-9c6c6f5a9a3c?auto=format&fit=crop&w=700&q=85" alt="">
+          </div>
+          <div class="service-content">
+            <span>01</span>
+            <h3>Realismo artístico</h3>
+            <p>Tatuagens com detalhes, sombras e acabamento marcante.</p>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1590246814883-57c511e55d9f?auto=format&fit=crop&w=700&q=85" alt="">
+          </div>
+          <div class="service-content">
+            <span>02</span>
+            <h3>Cobertura de tatuagem</h3>
+            <p>Planejamento de novas composições para cobrir trabalhos antigos.</p>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1562962234-2c2d5f5f0f8e?auto=format&fit=crop&w=700&q=85" alt="">
+          </div>
+          <div class="service-content">
+            <span>03</span>
+            <h3>Blackwork</h3>
+            <p>Contraste forte, linhas marcantes e composição contemporânea.</p>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1542727365-19732a80dcfd?auto=format&fit=crop&w=700&q=85" alt="">
+          </div>
+          <div class="service-content">
+            <span>04</span>
+            <h3>Artes e desenhos</h3>
+            <p>Desenvolvimento de desenhos personalizados para sua ideia.</p>
+          </div>
+        </article>
+      </div>
+
+      <a class="btn btn-center" href="#contato">Quero agendar um horário <b>→</b></a>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="testimonials section" id="depoimentos">
+      <div class="section-heading reveal">
+        <span class="eyebrow">DEPOIMENTOS</span>
+        <h2>Quem vive a experiência, recomenda.</h2>
+        <p>Comentários de clientes sobre o atendimento e o resultado.</p>
+      </div>
+
+      <div class="testimonial-track reveal">
+        <button class="slider-btn prev" aria-label="Anterior">‹</button>
+
+        <div class="testimonial-window">
+          <div class="testimonial-list">
+            <article class="testimonial">
+              <div class="avatar">D</div>
+              <strong>Douglas Farias</strong>
+              <div class="stars">★★★★★</div>
+              <p>“O resultado ficou exatamente como eu imaginava. Atendimento impecável do início ao fim.”</p>
+            </article>
+            <article class="testimonial">
+              <div class="avatar">M</div>
+              <strong>Matheus Lima</strong>
+              <div class="stars">★★★★★</div>
+              <p>“A atenção aos detalhes fez toda diferença. Com certeza voltarei para o próximo projeto.”</p>
+            </article>
+            <article class="testimonial">
+              <div class="avatar">L</div>
+              <strong>Lucas Alves</strong>
+              <div class="stars">★★★★★</div>
+              <p>“Profissional muito cuidadoso e o resultado superou minhas expectativas.”</p>
+            </article>
+          </div>
+        </div>
+
+        <button class="slider-btn next" aria-label="Próximo">›</button>
+      </div>
+
+      <div class="dots"><i class="active"></i><i></i><i></i></div>
+
+      <div class="cta reveal">
+        <h2>Vamos fazer uma tattoo nova?</h2>
+        <p>Não deixe seu projeto apenas em uma ideia. Vamos transformar seu conceito em arte.</p>
+        <a class="btn light" href="#contato">Agendar agora <b>→</b></a>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contact section" id="contato">
+      <div class="map-card reveal">
+        <div class="map-grid"></div>
+        <div class="map-pin">●</div>
+        <div class="map-label">Dom Inked</div>
+      </div>
+
+      <div class="contact-copy reveal">
+        <span class="eyebrow">FALE CONOSCO</span>
+        <h2>Seu próximo projeto começa aqui.</h2>
+        <p>Rua Exemplo, 123 — Centro<br>São Paulo — SP</p>
+        <a class="contact-line" href="https://wa.me/5511999999999" target="_blank" rel="noopener">WhatsApp <b>↗</b></a>
+        <a class="contact-line" href="https://instagram.com/" target="_blank" rel="noopener">Instagram <b>↗</b></a>
+        <a class="contact-line" href="mailto:contato@dominked.com">contato@dominked.com <b>↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <span class="brand-script">Dom</span>
+      <small>INKED</small>
+    </div>
+    <p>Todos os direitos reservados.</p>
+    <span>Desenvolvido por Aura Web</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
